@@ -14,67 +14,34 @@
         @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
     </style>
    <style>
-
-   @media (max-width: 480px) {
-
-  .left {
-    font-size: 20px;
-  }
-
-  .firstsection {
-    padding: 20px;
-  }
-
-  .leftsection {
-    font-size: 16px;
-    text-align: center;
-  }
-
-  #element {
-    font-size: 20px;
-  }
-
-  .buttons {
-    display: block;
-    width: 100%;
-    max-width: 220px;
-    margin: 10px auto;
-  }
-
-  .rightsection img {
-    width: 180px;
-  }
-}
-
-
     @media (max-width: 600px) {
 
+header{
+    font-size: 20px;
+}
   nav {
-    flex-direction: column;
-    height: auto;
-    padding: 10px 0;
-  }
-
-  nav ul {
-    flex-wrap: wrap;
-    gap: 6px;
+    padding: 27px;
+    width: 1000px;
+    height: 100px;
+    
   }
 
   .firstsection {
-    flex-direction: column;
-    padding: 30px 20px;
-    text-align: center;
-  }
-
+         display: flex;
+        }
   .leftsection {
-    width: 100%;
-    margin: 0;
-    font-size: 18px;
+
+   position: relative;
+        right: 128px;
+        display: inline-grid;
   }
 
   .rightsection {
-    width: 100%;
-    margin-top: 30px;
+          height: 300px;
+       
+        position: relative;
+        left: 258px;
+        bottom: 212px;
   }
 
   .rightsection img {
@@ -93,8 +60,11 @@
   }
 
   .secondsection {
-    margin: 80px 20px;
-    font-size: 18px;
+           display: inline-grid;
+        width: 400px;
+        position: relative;
+        left: 150px;
+        text-align: center;
   }
 
   hr {
@@ -102,7 +72,12 @@
   }
 
   ul {
-    padding: 0;
+    display: flex;
+    
+  }
+  .skills{
+    display: contents;
+    
   }
 }
 
