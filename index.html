@@ -15,7 +15,62 @@
     </style>
    <style>
     @media (max-width: 600px) {
+        .grey{
+            font-size: 100px;
+        }
+        #text{
+            font-size: 100px;
+        }
+        .heyiam{
+font-size: 55px;
+text-align: center;
+
+        }
+        .prayash{
+            font-size: 60px;
+            text-align: center;
+        }
+        .text{
+            font-size: 40px;
+            text-align: center;
+        }
+        #LI{
+            align-items: center;
+            text-align: center;
+            padding: 70px;
+            height: 77px;
+            ;
+        }
+        #git{
+            align-items: center;
+            text-align: center;
+            padding: 70px;
+            height: 77px;
+            margin-bottom: 62px
+        }
+        #res{
+            padding-top: 10px;
+            align-items: center;
+            text-align: center;
+            padding: 70px;
+            height: 77px;
+            margin-bottom: 62px;
+            font-size: 43px;
+            
+        }
+    .buttons {
+    display: inline-block;
+    margin: 40px;
+    font-size: 14px;
+    width: 400px;
+    height: 163px;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+font-size: 100px;
+  }
 .buttons{
+    font-size: 54px;
     text-align: center;
     
 }
@@ -38,8 +93,9 @@ header{
   .leftsection {
 
    position: relative;
-        right: 128px;
+        right: -19px;
         display: inline-grid;
+        
   }
 
   .rightsection {
@@ -51,19 +107,17 @@ header{
   }
 
   .rightsection img {
-    width: 200px;
+    display: none;
   }
 
   #element {
     width: auto;
-    font-size: 22px;
+    font-size: 50px;
+    position: relative;
+    left: 161px;
   }
 
-  .buttons {
-    display: inline-block;
-    margin: 10px 5px;
-    font-size: 14px;
-  }
+
 
   .secondsection {
     
@@ -207,6 +261,10 @@ header{
             font-size: 20px;
             font-weight: 700;
         }
+        #grey{
+            font-size: 17px ;color: rgb(141, 139, 136); font-weight: 500;
+
+        }
       .skills{
    text-decoration: none;
    color: antiquewhite;
@@ -218,6 +276,10 @@ header{
         }
 hr{
 width: 1000px; border-color: black;
+}
+#text{
+    font-size: 14px; font-weight: 300; position: relative; top: 31px;
+
 }
     </style>
 </head>
@@ -243,21 +305,23 @@ width: 1000px; border-color: black;
         <div class="firstsection" id="firstsection">
 
             <div class="leftsection">
-                Hey, I am <br>
-                <strong style="color: rgb(108, 32, 189);">Prayash!</strong>
+              <div class="heyiam">  Hey, I am</div> <br>
+                <strong style="color: rgb(108, 32, 189);" class="prayash">Prayash!</strong>
 
                 <br><br>
+                <div class="text">
                 First-year CSE student at VIT Bhopal, passionate about learning new technologies and constantly
-                improving my skills.
+                improving my skills.</div>
 
                 <br><br>
-                Currently interested in
+                <div class="text">
+                Currently interested in</div>
 
                 <div id="element"></div>
 <br>
-                <a href="Prayash Resume 2026.pdf" download class="buttons">Download resume</a>
-                <a href="https://github.com/prayashpersonal-ops" class="buttons">Visit Github</a>
-                <a href="https://www.linkedin.com/in/prayash-das-31b565374/" class="buttons">Visit LinkedIn</a>
+                <a href="Prayash Resume 2026.pdf" download class="buttons" id="res">Download resume</a>
+                <a href="https://github.com/prayashpersonal-ops" class="buttons" id="git">Visit Github</a>
+                <a href="https://www.linkedin.com/in/prayash-das-31b565374/" class="buttons" id="LI">Visit LinkedIn</a>
             </div>
 
             <div class="rightsection">
@@ -265,26 +329,29 @@ width: 1000px; border-color: black;
             </div>
         </div>
         <hr>
-        <div class="secondsection" id="secondsection">Web Development
+        <div class="secondsection" id="secondsection">
+           <div class="text"> Web Development </div>
             <br>
             
-            <span id="grey" style="font-size: 17px ;color: rgb(141, 139, 136); font-weight: 500;">I develop simple yet efficient websites</span>
+            <span id="grey" class="grey" >I develop simple yet efficient websites</span>
             <br>
-            <span style="font-size: 14px; font-weight: 300; position: relative; top: 31px;"> While cool 3D animations are exciting, I focus on building clean, efficient, and user-friendly interfaces that actually solve problems.</span>
+            <div id="text"> While cool 3D animations are exciting, I focus on building clean, efficient, and user-friendly interfaces that actually solve problems.</div>
         </div>
         <hr>
- <div class="secondsection" id="thirdsection">Digital Enablement
+ <div class="secondsection" id="thirdsection">
+    <div class="text">Digital Enablement</div>
             <br>
 
-            <span id="grey" style="font-size: 17px ;color: rgb(141, 139, 136); font-weight: 500;">Helping businesses grow digitally</span>
+            <span id="grey" class="grey">Helping businesses grow digitally</span>
             <br>
-            <span style="font-size: 14px; font-weight: 300; position: relative; top: 31px;">I help new-age businesses grow by designing modern websites and editing short-form videos for their social platforms. </span>
+            <div id="text">I help new-age businesses grow by designing modern websites and editing short-form videos for their social platforms. </div>
         </div>
         <hr>
- <div class="secondsection" id="fourthsection"; style="font-weight: 700;">SKILLS
+ <div class="secondsection" id="fourthsection"; style="font-weight: 700;">
+    <div class="text">SKILLS</div>
             <br>
 
-            <span id="grey" style="font-size: 17px ;color: rgb(141, 139, 136); font-weight: 500;">Actively learning and improving</span>
+            <span id="grey" class="grey">Actively learning and improving</span>
             <br>
             <span style="font-size: 14px; font-weight: 300; position: relative; top: 31px;">
                 <ul style="margin: 40px;">
@@ -303,7 +370,7 @@ width: 1000px; border-color: black;
 <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script>
         var typed = new Typed('#element', {
-            strings: ['Web Development', 'Digital Enablement','Problem Solving','Machine Learning' ,],
+            strings: ['Web Development', 'Digital Enablement.','Backend.','Machine Learning.','Product Building.' ,],
             typeSpeed: 50,
             loop: true,
             backSpeed: 30,
