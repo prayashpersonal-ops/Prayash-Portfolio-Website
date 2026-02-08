@@ -145,6 +145,14 @@ header{
 
    </style>
 
+
+
+
+
+
+
+
+
     <style>
         html {
   scroll-behavior: smooth;
@@ -160,7 +168,7 @@ header{
         }
 
         body {
-            background-color: rgb(8, 4, 47);
+            background-color: black;
             color: antiquewhite;
             font-family: 'Poppins', sans-serif;
         }
@@ -170,7 +178,7 @@ header{
             justify-content: space-around;
             align-items: center;
             height: 55px;
-            background-color: #15154c;
+            background-color: #414142;
         }
 
         nav ul {
@@ -188,10 +196,9 @@ header{
         }
 
         .firstsection {
-            display: flex;
-            justify-content: space-between;
+            background-color: rgb(0, 0, 0);
             align-items: center;
-            padding: 60px 80px;
+            padding: 120px 56px;
         }
 
         .leftsection {
@@ -208,39 +215,48 @@ header{
         }
 
         .rightsection img {
-            width: 300px;
-
+            width: 460px;
+            border-radius: 50%;
+            border: 6px solid rgb(108, 32, 189);
+transition: color 0.3s ease, transform 0.8s ease;
+        }
+        .rightsection img:hover{
+            transform:  translate(20px);
         }
 
 
 
         .firstsection {
-            justify-content: space-around;
+            
             display: flex;
             justify-content: space-between;
         }
 
         nav ul li a {
             text-decoration: none;
-            color: white;
+            color: rgb(255, 255, 255);
+            transition: color 0.7s ease, transform 0.8s ease;
         }
 
         nav ul li a:hover {
-            text-decoration: dotted;
-            color: aqua;
-            font-size: 1.01rem;
+            
+            color: #9270c2;
         }
         .leftsection .buttons{
             padding: 8px;
-            background-color: rgb(83, 73, 168);
-            color: rgb(228, 221, 211);
-            border-color: rgb(135, 132, 128);
+           
+
             border-radius: 10px;
             margin: 5px;
             position: relative;
             top: 20px;
             text-decoration: none;
-              
+            
+        }
+        #fourthsection{
+            font-weight: 700;
+    margin-top: 250px;
+    margin-bottom: 350px;
         }
 
         #element {
@@ -254,35 +270,129 @@ header{
 
             white-space: nowrap;
         }
+        .prayash{
+            font-size: 90px;
+        }
 
         .secondsection {
-            margin: 200px;
-            max-width: 80vw;
-            font-size: 20px;
-            font-weight: 700;
+            
+                margin: 200px;
+    max-width: 80vw;
+    font-size: 40px;
+    font-weight: 700;
+    height: 550px;
+    text-align: center;
+    margin-top: 350px;
         }
         #grey{
-            font-size: 17px ;color: rgb(141, 139, 136); font-weight: 500;
+            font-size: 25px ;color: rgb(141, 139, 136); font-weight: 500;
 
         }
-      .skills{
-   text-decoration: none;
-   color: antiquewhite;
+      
+    
+        .skill-card li{
+    font-size: 69px;
+    margin: 2px;
+    padding: -11px;
+    text-decoration: none;
+    color: rgb(106, 98, 166);
+    list-style: none;
+    border: 3px solid rgb(226, 226, 226);
+    border-radius: 34px;
+    transition: color 0.3s ease, transform 0.8s ease;
 }
-        .skills:hover {
-            text-decoration: dotted;
-            color: rgb(49, 231, 231);
-            width: 400px;
-        }
+       .skill-card li:hover {
+  transform: translate(10px);
+  
+}
+
 hr{
-width: 1000px; border-color: black;
+width: 100%; border-color: rgb(108, 32, 189);
 }
 #text{
-    font-size: 14px; font-weight: 300; position: relative; top: 31px;
+    margin-top: 90px;
+    font-size: 20px; font-weight: 300; position: relative; 
 
 }
+#skills{
+    border: 2px solid rgb(255, 255, 255); width: 300px; height: 47px; font-size: 25px; background-color: #9270c2; list-style: none;  text-align: center; border-radius: 6px; margin: 40px;
+
+    transition: transform 0.3s ease;
+}
+#skills:hover{
+    transform: translateY(-6px);
+}
+.footer {
+  background: #0d0d0f;
+  padding: 60px 20px 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.footer-left h2 {
+  color: rgb(108, 32, 189);
+  font-size: 26px;
+}
+
+.footer-left p {
+  font-size: 14px;
+  opacity: 0.7;
+}
+
+.footer-center,
+.footer-right {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer a {
+  color: antiquewhite;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.footer a:hover {
+  color: rgb(108, 32, 189);
+  transform: translateX(5px);
+}
+
+.footer-bottom {
+  margin-top: 40px;
+  text-align: center;
+  font-size: 13px;
+  opacity: 0.6;
+}
+.buttons{
+    color: #9270c2;
+    transition: color 0.8s ease;
+}
+.buttons:hover{
+    color: rgb(255, 255, 255);
+}
+
+
     </style>
+
 </head>
+
+
+
+
+
+
+
+
+
 
 <body>
     <header>
@@ -292,9 +402,9 @@ width: 1000px; border-color: black;
                 <ul>
                     <li><a href=""></a></li>
                     <li><a href="#firstsection">About me</a></li>
+                    <li><a href="#fourthsection">SKILLS</a></li>
                     <li><a href="#secondsection">Web Development</a></li>
                     <li><a href="#thirdsection">Digital Enablement</a></li>
-                    <li><a href="#fourthsection">SKILLS</a></li>
                 </ul>
             </div>
         </nav>
@@ -305,8 +415,7 @@ width: 1000px; border-color: black;
         <div class="firstsection" id="firstsection">
 
             <div class="leftsection">
-              <div class="heyiam">  Hey, I am</div> <br>
-                <strong style="color: rgb(108, 32, 189);" class="prayash">Prayash!</strong>
+                <strong style="color: rgb(108, 32, 189);" class="prayash">Prayash Das</strong>
 
                 <br><br>
                 <div class="text">
@@ -314,8 +423,8 @@ width: 1000px; border-color: black;
                 improving my skills.</div>
 
                 <br><br>
-                <div class="text">
-                Currently interested in</div>
+                <!-- <div class="text">
+                Currently interested in</div> -->
 
                 <div id="element"></div>
 <br>
@@ -325,9 +434,31 @@ width: 1000px; border-color: black;
             </div>
 
             <div class="rightsection">
-                <img src="1.png" alt="profile image">
+                <img src="IMG_4562.jpg" alt="profile image">
             </div>
         </div>
+        <hr>
+        <div class="secondsection" id="fourthsection">
+           <div class="text">SKILLS</div>
+           <span id="grey" class="grey">Actively learning and improving</span>
+                   <br>
+               <ul class="skill-card">
+       
+       
+       
+                   <li>PYTHON</li>
+                   <li>JAVA</li>
+                   <li>JavaSript</li>
+                   <li>HTML,CSS</li>
+                   <li>MongoDB</li>
+       
+       
+       
+       
+               </ul>
+               
+             
+               </div>
         <hr>
         <div class="secondsection" id="secondsection">
            <div class="text"> Web Development </div>
@@ -347,36 +478,42 @@ width: 1000px; border-color: black;
             <div id="text">I help new-age businesses grow by designing modern websites and editing short-form videos for their social platforms. </div>
         </div>
         <hr>
- <div class="secondsection" id="fourthsection"; style="font-weight: 700;">
-    <div class="text">SKILLS</div>
-            <br>
+        
+        <footer class="footer">
+  <div class="footer-container">
 
-            <span id="grey" class="grey">Actively learning and improving</span>
-            <br>
-            <span style="font-size: 14px; font-weight: 300; position: relative; top: 31px;">
-                <ul style="margin: 40px;">
-                    <a href="https://www.google.com/search?q=what+are+html+css+and+javascript&sca_esv=6ac9360805b83292&rlz=1C5CHFA_enIN1182IN1182&sxsrf=AE3TifP3GU7Ru53fb4DfeyFAG-LE_3l3Vw%3A1767253756104&ei=_CZWaZaDBvmbseMP88bV0Q0&oq=what+are+html+css&gs_lp=Egxnd3Mtd2l6LXNlcnAiEXdoYXQgYXJlIGh0bWwgY3NzKgIIATILEAAYgAQYkQIYigUyCxAAGIAEGJECGIoFMgsQABiABBiRAhiKBTIFEAAYgAQyBRAAGIAEMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHkisMlD3B1i7H3ABeAGQAQCYAZwBoAHSEKoBBDAuMTe4AQHIAQD4AQGYAhKgArcRqAIUwgIHECMYJxjqAsICChAjGPAFGCcY6gLCAhYQABiABBhDGLQCGOcGGIoFGOoC2AEBwgIKECMYgAQYJxiKBcICChAAGIAEGEMYigXCAhEQLhiABBixAxjRAxiDARjHAcICDhAAGIAEGLEDGIoFGI0GwgIIEAAYgAQYsQPCAgUQLhiABMICDRAuGIAEGNEDGMcBGArCAgoQABiABBgUGIcCmAMI8QWC8K9fAyJSSboGBggBEAEYAZIHBDEuMTegB4l9sgcEMC4xN7gHrhHCBwYwLjEuMTfIB0iACAA&sclient=gws-wiz-serp" class="skills" style="border: 2px solid rgb(255, 255, 255); width: 300px; height: 47px; font-size: 25px; background-color: #9270c2; list-style: none;  text-align: center; border-radius: 6px; margin: 40px;" >HTML, CSS, JS</a>
-                    <a href="https://www.google.com/search?q=what+is+python&rlz=1C5CHFA_enIN1182IN1182&sca_esv=6ac9360805b83292&sxsrf=AE3TifPYQLxNeOu1msPgzxO8fH3oz56tIA%3A1767253791229&ei=HydWaZ_cDeegseMPtdPu8QI&ved=0ahUKEwjf59Cz7emRAxVnUGwGHbWpOy4Q4dUDCBQ&uact=5&oq=what+is+python&gs_lp=Egxnd3Mtd2l6LXNlcnAiDndoYXQgaXMgcHl0aG9uMg4QABiABBiRAhixAxiKBTILEAAYgAQYkQIYigUyCxAAGIAEGJECGIoFMgsQABiABBiRAhiKBTILEAAYgAQYkQIYigUyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABEj9FFC7AljjEnABeAGQAQCYAakBoAHwDaoBBDAuMTS4AQPIAQD4AQGYAg-gArYOqAIQwgIHECMYJxjqAsICChAjGPAFGCcY6gLCAhYQABiABBhDGLQCGOcGGIoFGOoC2AEBwgIQEAAYAxi0AhjqAhiPAdgBAcICChAjGIAEGCcYigXCAgoQABiABBhDGIoFwgILEAAYgAQYsQMYgwHCAg0QABiABBixAxhDGIoFwgIWEC4YgAQYsQMY0QMYQxiDARjHARiKBcICERAuGIAEGLEDGNEDGIMBGMcBwgIQEAAYgAQYsQMYQxiDARiKBcICCBAAGIAEGLEDmAMJ8QUSLB9Bfs7CVLoGBggBEAEYAZIHBDEuMTSgB7R4sgcEMC4xNLgHrQ7CBwcwLjYuOC4xyAcygAgA&sclient=gws-wiz-serp" class="skills" style="border: 2px solid rgb(255, 255, 255); width: 300px; height: 47px; font-size: 25px; background-color: #9270c2; list-style: none;  text-align: center; border-radius: 6px; margin: 40px;">Python</a>
-                    <a href="https://www.google.com/search?q=what+are+c+and+c%2B%2B+&rlz=1C5CHFA_enIN1182IN1182&sca_esv=6ac9360805b83292&sxsrf=AE3TifOcZ2HGX6dKYWCSjWJj_U00aK9fig%3A1767253835589&ei=SydWabvhI_mxwcsPvqLTuQg&ved=0ahUKEwj7suTI7emRAxX5WHADHT7RNIcQ4dUDCBQ&uact=5&oq=what+are+c+and+c%2B%2B+&gs_lp=Egxnd3Mtd2l6LXNlcnAiE3doYXQgYXJlIGMgYW5kIGMrKyAyBRAAGIAEMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeSI9KUOEEWPFFcAF4AZABAJgBkgGgAdcWqgEEMC4yNLgBA8gBAPgBAZgCGaAC0BeoAhTCAgcQIxgnGOoCwgIKECMY8AUYJxjqAsICFhAAGIAEGEMYtAIY5wYYigUY6gLYAQHCAhYQLhiABBhDGLQCGOcGGIoFGOoC2AEBwgIKECMYgAQYJxiKBcICChAAGIAEGEMYigXCAgsQABiABBiRAhiKBcICDhAAGIAEGLEDGIoFGI0GwgIIEAAYgAQYsQPCAgUQLhiABMICCxAAGIAEGIYDGIoFwgIFEAAY7wXCAggQABiABBiiBJgDCPEFsnXXBWsUL_a6BgYIARABGAGSBwQxLjI0oAeimQGyBwQwLjI0uAfHF8IHBzAuMTAuMTXIB1SACAA&sclient=gws-wiz-serp" class="skills" style="border: 2px solid rgb(255, 255, 255); width: 300px; height: 47px; font-size: 25px; background-color: #9270c2; list-style: none;  text-align: center; border-radius: 6px; margin: 40px;">C,C++</a>
-                    <a href="https://www.google.com/search?q=what+is+video+editing&rlz=1C5CHFA_enIN1182IN1182&sca_esv=6ac9360805b83292&sxsrf=AE3TifORdg-_SUdsNbgCoHI9JFiDiFPLyg%3A1767253871480&ei=bydWaZaEHeOVseMP972NqA4&oq=what+is+video+eediti&gs_lp=Egxnd3Mtd2l6LXNlcnAiFHdoYXQgaXMgdmlkZW8gZWVkaXRpKgIIADIHEAAYgAQYDTIHEAAYgAQYDTIHEAAYgAQYDTIHEAAYgAQYDTIHEAAYgAQYDTIHEAAYgAQYDTIHEAAYgAQYDTIHEAAYgAQYDTIHEAAYgAQYDTIHEAAYgAQYDUjmOlC9BVjILHABeAGQAQCYAdoBoAHNFKoBBjAuMTkuMbgBAcgBAPgBAZgCFaACvhWoAhDCAgcQIxgnGOoCwgIKECMY8AUYJxjqAsICFxAAGIAEGJECGLQCGOcGGIoFGOoC2AEBwgIKECMYgAQYJxiKBcICBBAjGCfCAgsQABiABBiRAhiKBcICCxAAGIAEGLEDGIMBwgIKEAAYgAQYQxiKBcICEBAuGIAEGLEDGEMYgwEYigXCAhEQLhiABBixAxjRAxiDARjHAcICFhAuGIAEGLEDGNEDGEMYgwEYxwEYigXCAg0QABiABBixAxhDGIoFwgIOEAAYgAQYkQIYsQMYigXCAgUQABiABMICCBAAGIAEGLEDwgIKEAAYgAQYFBiHAsICDhAAGIAEGLEDGIMBGIoFwgIGEAAYFhgewgIGEAAYDRgewgIIEAAYFhgKGB7CAggQABgIGA0YHsICCxAAGIAEGIYDGIoFwgIFEAAY7wWYAwfxBUeZiPhLnHPyugYGCAEQARgBkgcGMS4xOS4xoAf4nQGyBwYwLjE5LjG4B7cVwgcGMC4zLjE4yAdPgAgA&sclient=gws-wiz-serp" class="skills" style="border: 2px solid rgb(255, 255, 255); width: 300px; height: 47px; font-size: 25px; background-color: #9270c2; list-style: none;  text-align: center; border-radius: 6px; margin: 40px;">Video Editing</a>
-                </ul>
-            </span>
-        </div>
+    <div class="footer-left">
+      <h2>Prayash Das</h2>
+      <p>First-year CSE student • Web Developer</p>
+    </div>
+
+    <div class="footer-center">
+      <a href="#firstsection">About</a>
+      <a href="#secondsection">Web Dev</a>
+      <a href="#thirdsection">Digital</a>
+      <a href="#fourthsection">Skills</a>
+    </div>
+
+    <div class="footer-right">
+      <a href="https://github.com/prayashpersonal-ops">GitHub</a>
+      <a href="https://www.linkedin.com/in/prayash-das-31b565374/">LinkedIn</a>
+      <a href="mailto:prayashpersonal@gmail.com">Email</a>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    © 2026 Prayash Das • Built with 💜 & code
+  </div>
+</footer>
+
 
     </main>
     
 
 
 <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
-    <script>
-        var typed = new Typed('#element', {
-            strings: ['Web Development', 'Digital Enablement.','Backend.','Machine Learning.','Product Building.' ,],
-            typeSpeed: 50,
-            loop: true,
-            backSpeed: 30,
-            backDelay: 1200
-        });
-    </script>
+  
         <script src="https://unpkg.com/gsap@3/dist/gsap.min.js">
             </script>
     <script>
@@ -389,28 +526,7 @@ gsap.from("main",{
 });
 </script>
 <script src="https://unpkg.com/gsap@3/dist/gsap.min.js"></script>
-<script>
-document.querySelectorAll(".buttons").forEach(btn => {
-  btn.addEventListener("mouseenter", () => {
-    gsap.to(btn, {
-      scale: 1.1,
-      backgroundColor: "rgb(108, 32, 189)",
-      color: "#fff",
-      duration: 0.3
-    });
-  });
 
-  btn.addEventListener("mouseleave", () => {
-    gsap.to(btn, {
-      scale: 1,
-      backgroundColor: "transparent",
-      color: "rgb(108, 32, 189)",
-      duration: 0.2,
-      
-    });
-  });
-});
-</script>
 
     
        
